@@ -10,4 +10,10 @@ public class IndexController {
 	public String home() {
 		return "index.jsp";
 	}
+	
+	@RequestMapping("/feedback")
+	public String feedback() {
+		return "feedback.jsp";
+	}
+	
 }
